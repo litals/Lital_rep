@@ -1,0 +1,85 @@
+﻿This report shows the steps taken to convert your Web application from ASP.NET 1.1 to ASP.NET 2.0. 
+There may be some unresolved conversion issues you will need to manually fix. 
+For more information, please refer to http://go.microsoft.com/fwlink/?LinkId=46995 or search for the help topic "Converting from Visual Studio .NET 2002 or 2003".
+Conversion Started on project file Book_Store.csproj at January 06 2007, 21:59:23.
+
+=========================ERRORS===================
+
+=========================WARNINGS=================
+Warning: An extra class 'PagingData' has been found in code-behind file 'CCPager.cs'. New file 'CCPager_cs_PagingData.cs' has been created for this class and moved to the 'App_Code\Migrated' folder.    CCPager.cs (Line 22)
+Warning: This web project was converted as a file-based web application. If your site contained any IIS meta-information, e.g. sub-folders marked as virtual directories, it is recommended that you close this web site and re-open it using the Open Web Site command and selecting the Local IIS tab.
+
+=========================COMMENTS=================
+Web.Config: Added 'xhtmlConformance' attribute.
+Removed attribute Codebehind from file CCPager.ascx.
+Removed attribute AutoEventWireup from file CCPager.ascx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file CCPager.cs (Line 46).
+Warning: Access level of 'Page_Init' changed to 'protected' in file CCPager.cs (Line 227).
+Warning: Access level of 'lnkFirst_Click' changed to 'protected' in file CCPager.cs (Line 244).
+Warning: Access level of 'lnkPrev_Click' changed to 'protected' in file CCPager.cs (Line 251).
+Warning: Access level of 'lnkNext_Click' changed to 'protected' in file CCPager.cs (Line 259).
+Warning: Access level of 'lnkLast_Click' changed to 'protected' in file CCPager.cs (Line 267).
+Removed attribute Codebehind from file Global.asax.
+Removed attribute AutoEventWireup from file Default.aspx.
+Removed attribute Codebehind from file Default.aspx.
+Removed attribute AutoEventWireup from file Books.aspx.
+Removed attribute Codebehind from file Books.aspx.
+Removed attribute AutoEventWireup from file Header.ascx.
+Removed attribute Codebehind from file Header.ascx.
+Removed attribute AutoEventWireup from file BookDetail.aspx.
+Removed attribute Codebehind from file BookDetail.aspx.
+Removed attribute AutoEventWireup from file ShoppingCart.aspx.
+Removed attribute Codebehind from file ShoppingCart.aspx.
+Removed attribute AutoEventWireup from file Registration.aspx.
+Removed attribute Codebehind from file Registration.aspx.
+Removed attribute AutoEventWireup from file AdminMenu.aspx.
+Removed attribute Codebehind from file AdminMenu.aspx.
+Removed attribute AutoEventWireup from file CategoriesGrid.aspx.
+Removed attribute Codebehind from file CategoriesGrid.aspx.
+Removed attribute AutoEventWireup from file CategoriesRecord.aspx.
+Removed attribute Codebehind from file CategoriesRecord.aspx.
+Removed attribute AutoEventWireup from file AdminBooks.aspx.
+Removed attribute Codebehind from file AdminBooks.aspx.
+Removed attribute AutoEventWireup from file BookMaint.aspx.
+Removed attribute Codebehind from file BookMaint.aspx.
+Removed attribute AutoEventWireup from file MembersGrid.aspx.
+Removed attribute Codebehind from file MembersGrid.aspx.
+Removed attribute AutoEventWireup from file MembersRecord.aspx.
+Removed attribute Codebehind from file MembersRecord.aspx.
+Removed attribute AutoEventWireup from file OrdersGrid.aspx.
+Removed attribute Codebehind from file OrdersGrid.aspx.
+Removed attribute AutoEventWireup from file OrdersRecord.aspx.
+Removed attribute Codebehind from file OrdersRecord.aspx.
+Removed attribute AutoEventWireup from file MembersInfo.aspx.
+Removed attribute Codebehind from file MembersInfo.aspx.
+Removed attribute AutoEventWireup from file MyInfo.aspx.
+Removed attribute Codebehind from file MyInfo.aspx.
+Removed attribute AutoEventWireup from file Login.aspx.
+Removed attribute Codebehind from file Login.aspx.
+Removed attribute AutoEventWireup from file CardTypesGrid.aspx.
+Removed attribute Codebehind from file CardTypesGrid.aspx.
+Removed attribute AutoEventWireup from file CardTypesRecord.aspx.
+Removed attribute Codebehind from file CardTypesRecord.aspx.
+Removed attribute AutoEventWireup from file ShoppingCartRecord.aspx.
+Removed attribute Codebehind from file ShoppingCartRecord.aspx.
+Removed attribute AutoEventWireup from file AdvSearch.aspx.
+Removed attribute Codebehind from file AdvSearch.aspx.
+Removed attribute AutoEventWireup from file EditorialsGrid.aspx.
+Removed attribute Codebehind from file EditorialsGrid.aspx.
+Removed attribute AutoEventWireup from file EditorialsRecord.aspx.
+Removed attribute Codebehind from file EditorialsRecord.aspx.
+Removed attribute AutoEventWireup from file EditorialCatGrid.aspx.
+Removed attribute Codebehind from file EditorialCatGrid.aspx.
+Removed attribute AutoEventWireup from file EditorialCatRecord.aspx.
+Removed attribute Codebehind from file EditorialCatRecord.aspx.
+Removed attribute AutoEventWireup from file Footer.ascx.
+Removed attribute Codebehind from file Footer.ascx.
+Added folder App_Code\Migrated.
+Moved file Global.asax.cs to the App_Code\ directory.
+Moved file CCUtility.cs to the App_Code\ directory.
+Moved file AssemblyInfo.cs to the App_Code\ directory.
+Changed HTML validation schema for all projects to 'Internet Explorer 6.0'.
+Removed file Bin\Book_Store.dll.
+Removed file Book_Store.csproj.
+Removed file Book_Store.csproj.webinfo.
+Project Book_Store.csproj has been converted successfully at January 06 2007, 22:00:00.

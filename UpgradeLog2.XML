@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Book_Store">
+</Property><Property Name="Solution File" Value="\\Storage\qa\Projects\C#\בסבסב\BookStore.NET_17584lines\Book_Store.sln">
+</Property><Property Name="Date" Value="Wednesday, July 13, 2011">
+</Property><Property Name="Time" Value="15:19 PM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Book_Store.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Book_Store.sln" Description="Converted">
+</Event></UpgradeLog>

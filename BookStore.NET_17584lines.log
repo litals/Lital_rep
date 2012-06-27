@@ -1,0 +1,1331 @@
+2011-03-28 16:18:48,688 [pool-1-thread-1] (CxScanJob.java:78) INFO  - Packing project
+2011-03-28 16:18:51,813 [pool-1-thread-1] (CxScanJob.java:97) INFO  - Project name is "console.project_1301321931813"
+2011-03-28 16:18:51,813 [pool-1-thread-1] (CxScanJob.java:106) INFO  - Log in
+2011-03-28 16:18:52,188 [pool-1-thread-1] (CxScanJob.java:112) INFO  - Retrieving scan configurations
+2011-03-28 16:18:52,267 [pool-1-thread-1] (CxScanJob.java:130) INFO  - Request scan
+2011-03-28 16:18:53,204 [pool-1-thread-1] (CxScanJob.java:416) TRACE - Project scan request response:RunScanResult(scanId:c5673228-28ed-40cc-b65d-c31eb4d942ea)
+2011-03-28 16:18:53,220 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="c5673228-28ed-40cc-b65d-c31eb4d942ea" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="28/03/2011 07:13:15" TimeFinished="28/03/2013 07:13:15" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-03-28 16:18:53,220 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-03-28 16:18:53,220 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-03-28 16:18:53,220 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-03-28 16:19:53,256 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="c5673228-28ed-40cc-b65d-c31eb4d942ea" RunStatus="Running" TotalPercent="43" CurrentStage="19" StageName="Optimizing internal representation, Stage 5" CurrentStagePercent="56" StageMessage="Stage # 20 of 22" StepMessage="Processing # 1422 of 2496" Details="N/A" TimeStarted="28/03/2011 07:13:15" TimeFinished="28/03/2013 07:13:15" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-03-28 16:19:53,256 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 43%
+2011-03-28 16:19:53,256 [pool-2-thread-1] (WaitScanCompletionJob.java:84) INFO  - Current stage:  "Optimizing internal representation, Stage 5" - Stage # 20 of 22
+2011-03-28 16:19:53,256 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Running "Optimizing internal representation, Stage 5"
+Stage # 20 of 22 (56%) Processing # 1422 of 2496
+2011-03-28 16:20:53,731 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="c5673228-28ed-40cc-b65d-c31eb4d942ea" RunStatus="Running" TotalPercent="99" CurrentStage="20" StageName="Querying" CurrentStagePercent="99" StageMessage="Running query: Weak_Password_Authentication" StepMessage="Processing # 135 of 136" Details="Weak_Password_Authentication" TimeStarted="28/03/2011 07:13:15" TimeFinished="28/03/2013 07:13:15" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-03-28 16:20:53,824 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 99%
+2011-03-28 16:20:53,949 [pool-2-thread-1] (WaitScanCompletionJob.java:84) INFO  - Current stage:  "Querying" - Running query: Weak_Password_Authentication
+2011-03-28 16:20:53,965 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Running "Querying"
+Running query: Weak_Password_Authentication (99%) Processing # 135 of 136
+2011-03-28 16:21:53,658 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="c5673228-28ed-40cc-b65d-c31eb4d942ea" RunStatus="Finished" TotalPercent="100" CurrentStage="2147483647" StageName="" CurrentStagePercent="0" StageMessage="Finish saving results" StepMessage="" Details="" TimeStarted="28/03/2011 07:13:15" TimeFinished="28/03/2011 07:15:50" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-03-28 16:21:53,674 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 100%
+2011-03-28 16:21:53,674 [pool-2-thread-1] (WaitScanCompletionJob.java:88) INFO  - Current stage: Finish saving results
+2011-03-28 16:21:53,674 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Finished
+Finish saving results (0%) 
+2011-03-28 16:21:53,674 [pool-1-thread-1] (CxScanJob.java:158) INFO  - Retrieving results
+2011-03-28 19:21:42,124 [pool-1-thread-1] (CxScanJob.java:78) INFO  - Packing project
+2011-03-28 19:21:45,078 [pool-1-thread-1] (CxScanJob.java:97) INFO  - Project name is "console.project_1301332905078"
+2011-03-28 19:21:45,078 [pool-1-thread-1] (CxScanJob.java:106) INFO  - Log in
+2011-03-28 19:21:45,531 [pool-1-thread-1] (CxScanJob.java:112) INFO  - Retrieving scan configurations
+2011-03-28 19:21:45,609 [pool-1-thread-1] (CxScanJob.java:130) INFO  - Request scan
+2011-03-28 19:21:46,750 [pool-1-thread-1] (CxScanJob.java:416) TRACE - Project scan request response:RunScanResult(scanId:443d424f-1bd1-41b7-ae41-0808dadf58a3)
+2011-03-28 19:21:46,765 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="443d424f-1bd1-41b7-ae41-0808dadf58a3" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="28/03/2011 10:16:08" TimeFinished="28/03/2013 10:16:08" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-03-28 19:21:46,765 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-03-28 19:21:46,765 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-03-28 19:21:46,765 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-03-28 19:22:47,115 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="443d424f-1bd1-41b7-ae41-0808dadf58a3" RunStatus="Running" TotalPercent="43" CurrentStage="19" StageName="Optimizing internal representation, Stage 5" CurrentStagePercent="56" StageMessage="" StepMessage="Processing # 1422 of 2496" Details="N/A" TimeStarted="28/03/2011 10:16:08" TimeFinished="28/03/2013 10:16:08" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-03-28 19:22:47,115 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 43%
+2011-03-28 19:22:47,115 [pool-2-thread-1] (WaitScanCompletionJob.java:86) INFO  - Current stage:  "Optimizing internal representation, Stage 5"
+2011-03-28 19:22:47,115 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Running "Optimizing internal representation, Stage 5"
+ (56%) Processing # 1422 of 2496
+2011-03-28 19:23:47,229 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="443d424f-1bd1-41b7-ae41-0808dadf58a3" RunStatus="Running" TotalPercent="99" CurrentStage="20" StageName="Querying" CurrentStagePercent="98" StageMessage="Running query: DOM_XSS" StepMessage="Processing # 134 of 136" Details="DOM_XSS" TimeStarted="28/03/2011 10:16:08" TimeFinished="28/03/2013 10:16:08" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-03-28 19:23:47,229 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 99%
+2011-03-28 19:23:47,229 [pool-2-thread-1] (WaitScanCompletionJob.java:84) INFO  - Current stage:  "Querying" - Running query: DOM_XSS
+2011-03-28 19:23:47,245 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Running "Querying"
+Running query: DOM_XSS (98%) Processing # 134 of 136
+2011-03-28 19:24:47,469 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="443d424f-1bd1-41b7-ae41-0808dadf58a3" RunStatus="Finished" TotalPercent="100" CurrentStage="2147483647" StageName="" CurrentStagePercent="0" StageMessage="Finish saving results" StepMessage="" Details="" TimeStarted="28/03/2011 10:16:08" TimeFinished="28/03/2011 10:18:39" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-03-28 19:24:47,469 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 100%
+2011-03-28 19:24:47,469 [pool-2-thread-1] (WaitScanCompletionJob.java:88) INFO  - Current stage: Finish saving results
+2011-03-28 19:24:47,485 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Finished
+Finish saving results (0%) 
+2011-03-28 19:24:47,485 [pool-1-thread-1] (CxScanJob.java:158) INFO  - Retrieving results
+2011-03-28 19:29:37,292 [pool-1-thread-1] (CxScanJob.java:78) INFO  - Packing project
+2011-03-28 19:29:41,511 [pool-1-thread-1] (CxScanJob.java:97) INFO  - Project name is "console.project_1301333381511"
+2011-03-28 19:29:41,511 [pool-1-thread-1] (CxScanJob.java:106) INFO  - Log in
+2011-03-28 19:29:41,886 [pool-1-thread-1] (CxScanJob.java:112) INFO  - Retrieving scan configurations
+2011-03-28 19:29:41,964 [pool-1-thread-1] (CxScanJob.java:130) INFO  - Request scan
+2011-03-28 19:29:42,964 [pool-1-thread-1] (CxScanJob.java:416) TRACE - Project scan request response:RunScanResult(scanId:438db028-9a06-465d-8177-82919de97aae)
+2011-03-28 19:29:42,980 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="438db028-9a06-465d-8177-82919de97aae" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="28/03/2011 10:24:04" TimeFinished="28/03/2013 10:24:04" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-03-28 19:29:42,980 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-03-28 19:29:42,980 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-03-28 19:29:42,980 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-03-28 19:30:43,001 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="438db028-9a06-465d-8177-82919de97aae" RunStatus="Running" TotalPercent="58" CurrentStage="20" StageName="Querying" CurrentStagePercent="17" StageMessage="Running query: Visible_Pointers" StepMessage="Processing # 24 of 136" Details="Visible_Pointers" TimeStarted="28/03/2011 10:24:04" TimeFinished="28/03/2013 10:24:04" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-03-28 19:30:43,001 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 58%
+2011-03-28 19:30:43,001 [pool-2-thread-1] (WaitScanCompletionJob.java:84) INFO  - Current stage:  "Querying" - Running query: Visible_Pointers
+2011-03-28 19:30:43,017 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Running "Querying"
+Running query: Visible_Pointers (17%) Processing # 24 of 136
+2011-03-28 19:31:43,022 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="438db028-9a06-465d-8177-82919de97aae" RunStatus="Running" TotalPercent="99" CurrentStage="20" StageName="Querying" CurrentStagePercent="99" StageMessage="Running query: Weak_Password_Authentication" StepMessage="Processing # 135 of 136" Details="Weak_Password_Authentication" TimeStarted="28/03/2011 10:24:04" TimeFinished="28/03/2013 10:24:04" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-03-28 19:31:43,022 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 99%
+2011-03-28 19:31:43,038 [pool-2-thread-1] (WaitScanCompletionJob.java:84) INFO  - Current stage:  "Querying" - Running query: Weak_Password_Authentication
+2011-03-28 19:31:43,038 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Running "Querying"
+Running query: Weak_Password_Authentication (99%) Processing # 135 of 136
+2011-03-28 19:32:43,043 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="438db028-9a06-465d-8177-82919de97aae" RunStatus="Finished" TotalPercent="100" CurrentStage="2147483647" StageName="" CurrentStagePercent="0" StageMessage="Finish saving results" StepMessage="" Details="" TimeStarted="28/03/2011 10:24:04" TimeFinished="28/03/2011 10:26:37" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-03-28 19:32:43,059 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 100%
+2011-03-28 19:32:43,059 [pool-2-thread-1] (WaitScanCompletionJob.java:88) INFO  - Current stage: Finish saving results
+2011-03-28 19:32:43,059 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Finished
+Finish saving results (0%) 
+2011-03-28 19:32:43,059 [pool-1-thread-1] (CxScanJob.java:158) INFO  - Retrieving results
+2011-03-29 11:11:23,499 [pool-1-thread-1] (CxScanJob.java:78) INFO  - Packing project
+2011-03-29 11:11:25,749 [pool-1-thread-1] (CxScanJob.java:97) INFO  - Project name is "console.project_1301389885749"
+2011-03-29 11:11:25,749 [pool-1-thread-1] (CxScanJob.java:106) INFO  - Log in
+2011-03-29 11:11:30,609 [pool-1-thread-1] (CxScanJob.java:112) INFO  - Retrieving scan configurations
+2011-03-29 11:11:31,031 [pool-1-thread-1] (CxScanJob.java:130) INFO  - Request scan
+2011-03-29 11:11:33,313 [pool-1-thread-1] (CxScanJob.java:416) TRACE - Project scan request response:RunScanResult(scanId:2a38f7ad-47cd-44f5-9b5e-f9df35f11d2b)
+2011-03-29 11:11:33,453 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="2a38f7ad-47cd-44f5-9b5e-f9df35f11d2b" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="29/03/2011 02:05:50" TimeFinished="29/03/2013 02:05:51" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-03-29 11:11:33,453 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-03-29 11:11:33,453 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-03-29 11:11:33,453 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-03-29 11:12:33,662 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="2a38f7ad-47cd-44f5-9b5e-f9df35f11d2b" RunStatus="Running" TotalPercent="43" CurrentStage="19" StageName="Optimizing internal representation, Stage 5" CurrentStagePercent="56" StageMessage="" StepMessage="Processing # 1422 of 2496" Details="N/A" TimeStarted="29/03/2011 02:05:50" TimeFinished="29/03/2013 02:05:51" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-03-29 11:12:33,662 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 43%
+2011-03-29 11:12:33,662 [pool-2-thread-1] (WaitScanCompletionJob.java:86) INFO  - Current stage:  "Optimizing internal representation, Stage 5"
+2011-03-29 11:12:33,662 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Running "Optimizing internal representation, Stage 5"
+ (56%) Processing # 1422 of 2496
+2011-03-29 11:13:33,886 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="2a38f7ad-47cd-44f5-9b5e-f9df35f11d2b" RunStatus="Running" TotalPercent="98" CurrentStage="20" StageName="Querying" CurrentStagePercent="97" StageMessage="Running query: DOM_URL_Redirection_Attack" StepMessage="Processing # 132 of 136" Details="DOM_URL_Redirection_Attack" TimeStarted="29/03/2011 02:05:50" TimeFinished="29/03/2013 02:05:51" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-03-29 11:13:33,886 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 98%
+2011-03-29 11:13:33,886 [pool-2-thread-1] (WaitScanCompletionJob.java:84) INFO  - Current stage:  "Querying" - Running query: DOM_URL_Redirection_Attack
+2011-03-29 11:13:33,886 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Running "Querying"
+Running query: DOM_URL_Redirection_Attack (97%) Processing # 132 of 136
+2011-03-29 11:14:33,985 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="2a38f7ad-47cd-44f5-9b5e-f9df35f11d2b" RunStatus="Finished" TotalPercent="100" CurrentStage="2147483647" StageName="" CurrentStagePercent="0" StageMessage="Finish saving results" StepMessage="" Details="" TimeStarted="29/03/2011 02:05:50" TimeFinished="29/03/2011 02:08:30" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-03-29 11:14:33,985 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 100%
+2011-03-29 11:14:33,985 [pool-2-thread-1] (WaitScanCompletionJob.java:88) INFO  - Current stage: Finish saving results
+2011-03-29 11:14:33,985 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Finished
+Finish saving results (0%) 
+2011-03-29 11:14:33,985 [pool-1-thread-1] (CxScanJob.java:158) INFO  - Retrieving results
+2011-03-29 12:47:10,436 [pool-1-thread-1] (CxScanJob.java:78) INFO  - Packing project
+2011-03-29 12:47:12,546 [pool-1-thread-1] (CxScanJob.java:97) INFO  - Project name is "console.project_1301395632546"
+2011-03-29 12:47:12,561 [pool-1-thread-1] (CxScanJob.java:106) INFO  - Log in
+2011-03-29 12:47:12,936 [pool-1-thread-1] (CxScanJob.java:112) INFO  - Retrieving scan configurations
+2011-03-29 12:47:13,030 [pool-1-thread-1] (CxScanJob.java:130) INFO  - Request scan
+2011-03-29 12:47:14,171 [pool-1-thread-1] (CxScanJob.java:416) TRACE - Project scan request response:RunScanResult(scanId:800b527d-6b5d-41b3-852d-f18f28299a8e)
+2011-03-29 12:47:14,264 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="800b527d-6b5d-41b3-852d-f18f28299a8e" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="29/03/2011 03:41:32" TimeFinished="29/03/2013 03:41:32" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-03-29 12:47:14,499 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-03-29 12:47:14,514 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-03-29 12:47:14,514 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-03-29 12:48:14,817 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="800b527d-6b5d-41b3-852d-f18f28299a8e" RunStatus="Running" TotalPercent="43" CurrentStage="19" StageName="Optimizing internal representation, Stage 5" CurrentStagePercent="56" StageMessage="" StepMessage="Processing # 1422 of 2496" Details="N/A" TimeStarted="29/03/2011 03:41:32" TimeFinished="29/03/2013 03:41:32" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-03-29 12:48:14,911 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 43%
+2011-03-29 12:48:15,207 [pool-2-thread-1] (WaitScanCompletionJob.java:86) INFO  - Current stage:  "Optimizing internal representation, Stage 5"
+2011-03-29 12:48:15,395 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Running "Optimizing internal representation, Stage 5"
+ (56%) Processing # 1422 of 2496
+2011-03-29 12:49:14,869 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="800b527d-6b5d-41b3-852d-f18f28299a8e" RunStatus="Running" TotalPercent="99" CurrentStage="20" StageName="Querying" CurrentStagePercent="99" StageMessage="Running query: Weak_Password_Authentication" StepMessage="Processing # 135 of 136" Details="Weak_Password_Authentication" TimeStarted="29/03/2011 03:41:32" TimeFinished="29/03/2013 03:41:32" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-03-29 12:49:14,885 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 99%
+2011-03-29 12:49:14,885 [pool-2-thread-1] (WaitScanCompletionJob.java:84) INFO  - Current stage:  "Querying" - Running query: Weak_Password_Authentication
+2011-03-29 12:49:14,885 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Running "Querying"
+Running query: Weak_Password_Authentication (99%) Processing # 135 of 136
+2011-03-29 12:50:14,906 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="800b527d-6b5d-41b3-852d-f18f28299a8e" RunStatus="Finished" TotalPercent="100" CurrentStage="2147483647" StageName="" CurrentStagePercent="0" StageMessage="Finish saving results" StepMessage="" Details="" TimeStarted="29/03/2011 03:41:32" TimeFinished="29/03/2011 03:44:09" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-03-29 12:50:14,906 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 100%
+2011-03-29 12:50:14,906 [pool-2-thread-1] (WaitScanCompletionJob.java:88) INFO  - Current stage: Finish saving results
+2011-03-29 12:50:14,921 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Finished
+Finish saving results (0%) 
+2011-03-29 12:50:14,921 [pool-1-thread-1] (CxScanJob.java:158) INFO  - Retrieving results
+2011-03-29 13:41:30,431 [pool-1-thread-1] (CxScanJob.java:78) INFO  - Packing project
+2011-03-29 13:41:33,728 [pool-1-thread-1] (CxScanJob.java:97) INFO  - Project name is "console.project_1301398893728"
+2011-03-29 13:41:33,728 [pool-1-thread-1] (CxScanJob.java:106) INFO  - Log in
+2011-03-29 13:41:34,119 [pool-1-thread-1] (CxScanJob.java:112) INFO  - Retrieving scan configurations
+2011-03-29 13:41:34,197 [pool-1-thread-1] (CxScanJob.java:130) INFO  - Request scan
+2011-03-29 13:41:35,166 [pool-1-thread-1] (CxScanJob.java:416) TRACE - Project scan request response:RunScanResult(scanId:65423328-c63a-4479-afb5-c4e1210e8419)
+2011-03-29 13:41:35,182 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="65423328-c63a-4479-afb5-c4e1210e8419" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="29/03/2011 04:35:53" TimeFinished="29/03/2013 04:35:53" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-03-29 13:41:35,182 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-03-29 13:41:35,197 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-03-29 13:41:35,197 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-03-29 13:42:35,218 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="65423328-c63a-4479-afb5-c4e1210e8419" RunStatus="Running" TotalPercent="43" CurrentStage="19" StageName="Optimizing internal representation, Stage 5" CurrentStagePercent="56" StageMessage="" StepMessage="Processing # 1422 of 2496" Details="N/A" TimeStarted="29/03/2011 04:35:53" TimeFinished="29/03/2013 04:35:53" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-03-29 13:42:35,218 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 43%
+2011-03-29 13:42:35,218 [pool-2-thread-1] (WaitScanCompletionJob.java:86) INFO  - Current stage:  "Optimizing internal representation, Stage 5"
+2011-03-29 13:42:35,218 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Running "Optimizing internal representation, Stage 5"
+ (56%) Processing # 1422 of 2496
+2011-03-29 13:43:35,442 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="65423328-c63a-4479-afb5-c4e1210e8419" RunStatus="Running" TotalPercent="99" CurrentStage="20" StageName="Querying" CurrentStagePercent="98" StageMessage="Running query: DOM_XSS" StepMessage="Processing # 134 of 136" Details="DOM_XSS" TimeStarted="29/03/2011 04:35:53" TimeFinished="29/03/2013 04:35:53" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-03-29 13:43:35,458 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 99%
+2011-03-29 13:43:35,458 [pool-2-thread-1] (WaitScanCompletionJob.java:84) INFO  - Current stage:  "Querying" - Running query: DOM_XSS
+2011-03-29 13:43:35,458 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Running "Querying"
+Running query: DOM_XSS (98%) Processing # 134 of 136
+2011-03-29 13:44:35,651 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="65423328-c63a-4479-afb5-c4e1210e8419" RunStatus="Finished" TotalPercent="100" CurrentStage="2147483647" StageName="" CurrentStagePercent="0" StageMessage="Finish saving results" StepMessage="" Details="" TimeStarted="29/03/2011 04:35:53" TimeFinished="29/03/2011 04:38:25" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-03-29 13:44:35,698 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 100%
+2011-03-29 13:44:35,698 [pool-2-thread-1] (WaitScanCompletionJob.java:88) INFO  - Current stage: Finish saving results
+2011-03-29 13:44:35,698 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Finished
+Finish saving results (0%) 
+2011-03-29 13:44:35,698 [pool-1-thread-1] (CxScanJob.java:158) INFO  - Retrieving results
+2011-05-26 23:35:08,893 [pool-1-thread-1] (CxScanJob.java:78) INFO  - Packing project
+2011-05-26 23:35:14,723 [pool-1-thread-1] (CxScanJob.java:97) INFO  - Project name is "console.project_1306442114723"
+2011-05-26 23:35:14,723 [pool-1-thread-1] (CxScanJob.java:106) INFO  - Log in
+2011-05-26 23:35:15,004 [pool-1-thread-1] (CxScanJob.java:112) INFO  - Retrieving scan configurations
+2011-05-26 23:35:15,082 [pool-1-thread-1] (CxScanJob.java:130) INFO  - Request scan
+2011-05-26 23:35:16,082 [pool-1-thread-1] (CxScanJob.java:416) TRACE - Project scan request response:RunScanResult(scanId:7c916b62-8f5c-4b71-893d-9756dde58693)
+2011-05-26 23:35:16,129 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="7c916b62-8f5c-4b71-893d-9756dde58693" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="26/05/2011 23:26:54" TimeFinished="26/05/2013 23:26:54" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-05-26 23:35:16,129 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-05-26 23:35:16,129 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-05-26 23:35:16,129 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-05-26 23:36:16,155 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="7c916b62-8f5c-4b71-893d-9756dde58693" RunStatus="Running" TotalPercent="43" CurrentStage="19" StageName="Optimizing internal representation, Stage 5" CurrentStagePercent="50" StageMessage="Stage # 20 of 22" StepMessage="Processing # 1248 of 2496" Details="Stage # 20 of 22" TimeStarted="26/05/2011 23:26:54" TimeFinished="26/05/2013 23:26:54" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-05-26 23:36:16,155 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 43%
+2011-05-26 23:36:16,155 [pool-2-thread-1] (WaitScanCompletionJob.java:84) INFO  - Current stage:  "Optimizing internal representation, Stage 5" - Stage # 20 of 22
+2011-05-26 23:36:16,155 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Running "Optimizing internal representation, Stage 5"
+Stage # 20 of 22 (50%) Processing # 1248 of 2496
+2011-05-26 23:37:16,180 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="7c916b62-8f5c-4b71-893d-9756dde58693" RunStatus="Running" TotalPercent="99" CurrentStage="20" CurrentStagePercent="0" StageMessage="Saving results..." Details="Weak_Password_Authentication" TimeStarted="26/05/2011 23:26:54" TimeFinished="26/05/2011 23:28:53" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-05-26 23:37:16,180 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 99%
+2011-05-26 23:37:16,196 [pool-2-thread-1] (WaitScanCompletionJob.java:88) INFO  - Current stage: Saving results...
+2011-05-26 23:37:16,196 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Running
+Saving results... (0%) 
+2011-05-26 23:38:16,206 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="7c916b62-8f5c-4b71-893d-9756dde58693" RunStatus="Finished" TotalPercent="100" CurrentStage="2147483647" StageName="" CurrentStagePercent="0" StageMessage="Finish saving results" StepMessage="" Details="" TimeStarted="26/05/2011 23:26:54" TimeFinished="26/05/2011 23:29:21" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-05-26 23:38:16,206 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 100%
+2011-05-26 23:38:16,222 [pool-2-thread-1] (WaitScanCompletionJob.java:88) INFO  - Current stage: Finish saving results
+2011-05-26 23:38:16,222 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Finished
+Finish saving results (0%) 
+2011-05-26 23:38:16,222 [pool-1-thread-1] (CxScanJob.java:158) INFO  - Retrieving results
+2011-05-30 22:36:08,754 [pool-1-thread-1] (CxScanJob.java:78) INFO  - Packing project
+2011-05-30 22:36:13,411 [pool-1-thread-1] (CxScanJob.java:97) INFO  - Project name is "console.project_1306784173411"
+2011-05-30 22:36:13,411 [pool-1-thread-1] (CxScanJob.java:106) INFO  - Log in
+2011-05-30 22:36:13,770 [pool-1-thread-1] (CxScanJob.java:112) INFO  - Retrieving scan configurations
+2011-05-30 22:36:13,864 [pool-1-thread-1] (CxScanJob.java:130) INFO  - Request scan
+2011-05-30 22:36:14,927 [pool-1-thread-1] (CxScanJob.java:416) TRACE - Project scan request response:RunScanResult(scanId:25abaeda-925d-4903-a8a0-d36abe09f724)
+2011-05-30 22:36:14,942 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="25abaeda-925d-4903-a8a0-d36abe09f724" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="30/05/2011 22:35:57" TimeFinished="30/05/2013 22:35:57" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-05-30 22:36:14,942 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-05-30 22:36:14,942 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-05-30 22:36:14,942 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-05-30 22:37:14,967 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="25abaeda-925d-4903-a8a0-d36abe09f724" RunStatus="Running" TotalPercent="43" CurrentStage="19" StageName="Optimizing internal representation, Stage 5" CurrentStagePercent="38" StageMessage="Stage # 20 of 22" StepMessage="Processing # 950 of 2496" Details="Stage # 20 of 22" TimeStarted="30/05/2011 22:35:57" TimeFinished="30/05/2013 22:35:57" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-05-30 22:37:14,967 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 43%
+2011-05-30 22:37:14,967 [pool-2-thread-1] (WaitScanCompletionJob.java:84) INFO  - Current stage:  "Optimizing internal representation, Stage 5" - Stage # 20 of 22
+2011-05-30 22:37:14,967 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Running "Optimizing internal representation, Stage 5"
+Stage # 20 of 22 (38%) Processing # 950 of 2496
+2011-05-30 22:38:14,991 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="25abaeda-925d-4903-a8a0-d36abe09f724" RunStatus="Running" TotalPercent="95" CurrentStage="20" StageName="Querying" CurrentStagePercent="91" StageMessage="Running query: DOM_URL_Redirection_Attack" StepMessage="Processing # 122 of 134" Details="DOM_URL_Redirection_Attack" TimeStarted="30/05/2011 22:35:57" TimeFinished="30/05/2013 22:35:57" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-05-30 22:38:14,991 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 95%
+2011-05-30 22:38:14,991 [pool-2-thread-1] (WaitScanCompletionJob.java:84) INFO  - Current stage:  "Querying" - Running query: DOM_URL_Redirection_Attack
+2011-05-30 22:38:14,991 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Running "Querying"
+Running query: DOM_URL_Redirection_Attack (91%) Processing # 122 of 134
+2011-05-30 22:39:15,016 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="25abaeda-925d-4903-a8a0-d36abe09f724" RunStatus="Finished" TotalPercent="100" CurrentStage="2147483647" StageName="" CurrentStagePercent="0" StageMessage="Finish saving results" StepMessage="" Details="" TimeStarted="30/05/2011 22:35:57" TimeFinished="30/05/2011 22:38:35" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-05-30 22:39:15,016 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 100%
+2011-05-30 22:39:15,016 [pool-2-thread-1] (WaitScanCompletionJob.java:88) INFO  - Current stage: Finish saving results
+2011-05-30 22:39:15,016 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Finished
+Finish saving results (0%) 
+2011-05-30 22:39:15,016 [pool-1-thread-1] (CxScanJob.java:158) INFO  - Retrieving results
+2011-06-01 22:23:38,356 [pool-1-thread-1] (CxScanJob.java:78) INFO  - Packing project
+2011-06-01 22:23:39,622 [pool-1-thread-1] (CxScanJob.java:97) INFO  - Project name is "console.project_1306956219622"
+2011-06-01 22:23:39,638 [pool-1-thread-1] (CxScanJob.java:106) INFO  - Log in
+2011-06-01 22:23:40,184 [pool-1-thread-1] (CxScanJob.java:112) INFO  - Retrieving scan configurations
+2011-06-01 22:23:40,310 [pool-1-thread-1] (CxScanJob.java:130) INFO  - Request scan
+2011-06-01 22:23:43,826 [pool-1-thread-1] (CxScanJob.java:416) TRACE - Project scan request response:RunScanResult(scanId:4056c644-3388-435d-bb8a-76033f8ff8fb)
+2011-06-01 22:23:43,857 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="4056c644-3388-435d-bb8a-76033f8ff8fb" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="01/06/2011 22:23:28" TimeFinished="01/06/2013 22:23:28" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-06-01 22:23:43,857 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-06-01 22:23:43,857 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-06-01 22:23:43,857 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-06-01 22:24:43,897 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="4056c644-3388-435d-bb8a-76033f8ff8fb" RunStatus="Running" TotalPercent="43" CurrentStage="19" StageName="Optimizing internal representation, Stage 5" CurrentStagePercent="39" StageMessage="Stage # 20 of 22" StepMessage="Processing # 991 of 2496" Details="Stage # 20 of 22" TimeStarted="01/06/2011 22:23:28" TimeFinished="01/06/2013 22:23:28" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-06-01 22:24:43,897 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 43%
+2011-06-01 22:24:43,897 [pool-2-thread-1] (WaitScanCompletionJob.java:84) INFO  - Current stage:  "Optimizing internal representation, Stage 5" - Stage # 20 of 22
+2011-06-01 22:24:43,897 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Running "Optimizing internal representation, Stage 5"
+Stage # 20 of 22 (39%) Processing # 991 of 2496
+2011-06-01 22:25:43,953 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="4056c644-3388-435d-bb8a-76033f8ff8fb" RunStatus="Running" TotalPercent="90" CurrentStage="20" StageName="Querying" CurrentStagePercent="81" StageMessage="Running query: TraceEnabled" StepMessage="Processing # 109 of 134" Details="TraceEnabled" TimeStarted="01/06/2011 22:23:28" TimeFinished="01/06/2013 22:23:28" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-06-01 22:25:43,953 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 90%
+2011-06-01 22:25:43,953 [pool-2-thread-1] (WaitScanCompletionJob.java:84) INFO  - Current stage:  "Querying" - Running query: TraceEnabled
+2011-06-01 22:25:43,968 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Running "Querying"
+Running query: TraceEnabled (81%) Processing # 109 of 134
+2011-06-01 22:26:43,977 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="4056c644-3388-435d-bb8a-76033f8ff8fb" RunStatus="Finished" TotalPercent="100" CurrentStage="2147483647" StageName="" CurrentStagePercent="0" StageMessage="Finish saving results" StepMessage="" Details="" TimeStarted="01/06/2011 22:23:28" TimeFinished="01/06/2011 22:26:14" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-06-01 22:26:43,977 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 100%
+2011-06-01 22:26:43,993 [pool-2-thread-1] (WaitScanCompletionJob.java:88) INFO  - Current stage: Finish saving results
+2011-06-01 22:26:44,024 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Finished
+Finish saving results (0%) 
+2011-06-01 22:26:44,071 [pool-1-thread-1] (CxScanJob.java:158) INFO  - Retrieving results
+2011-06-09 00:48:48,965 [pool-1-thread-1] (CxScanJob.java:78) INFO  - Packing project
+2011-06-09 00:48:50,997 [pool-1-thread-1] (CxScanJob.java:97) INFO  - Project name is "console.project_1307569730997"
+2011-06-09 00:48:50,997 [pool-1-thread-1] (CxScanJob.java:106) INFO  - Log in
+2011-06-09 00:48:51,372 [pool-1-thread-1] (CxScanJob.java:112) INFO  - Retrieving scan configurations
+2011-06-09 00:48:51,466 [pool-1-thread-1] (CxScanJob.java:130) INFO  - Request scan
+2011-06-09 00:48:57,904 [pool-1-thread-1] (CxScanJob.java:416) TRACE - Project scan request response:RunScanResult(scanId:a4ae5ddc-a621-4f7d-9cbc-300543d84e25)
+2011-06-09 00:48:57,935 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="a4ae5ddc-a621-4f7d-9cbc-300543d84e25" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="09/06/2011 00:40:47" TimeFinished="09/06/2013 00:40:47" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-06-09 00:48:57,935 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-06-09 00:48:57,935 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-06-09 00:48:57,935 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-06-09 00:49:57,960 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="a4ae5ddc-a621-4f7d-9cbc-300543d84e25" RunStatus="Running" TotalPercent="40" CurrentStage="18" StageName="Optimizing internal representation, Stage 4" CurrentStagePercent="100" StageMessage="Stage # 19 of 22" StepMessage="Processing # 2415 of 2415" Details="Book_Store.EditorialCatRecord.Checkmarx_Class_Init" TimeStarted="09/06/2011 00:40:47" TimeFinished="09/06/2013 00:40:47" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-06-09 00:49:57,960 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 40%
+2011-06-09 00:49:57,960 [pool-2-thread-1] (WaitScanCompletionJob.java:84) INFO  - Current stage:  "Optimizing internal representation, Stage 4" - Stage # 19 of 22
+2011-06-09 00:49:57,960 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Running "Optimizing internal representation, Stage 4"
+Stage # 19 of 22 (100%) Processing # 2415 of 2415
+2011-06-09 00:50:57,999 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="a4ae5ddc-a621-4f7d-9cbc-300543d84e25" RunStatus="Running" TotalPercent="87" CurrentStage="20" StageName="Querying" CurrentStagePercent="75" StageMessage="Running query: CookieLess_Authentication" StepMessage="Processing # 101 of 134" Details="CookieLess_Authentication" TimeStarted="09/06/2011 00:40:47" TimeFinished="09/06/2013 00:40:47" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-06-09 00:50:57,999 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 87%
+2011-06-09 00:50:58,015 [pool-2-thread-1] (WaitScanCompletionJob.java:84) INFO  - Current stage:  "Querying" - Running query: CookieLess_Authentication
+2011-06-09 00:50:58,015 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Running "Querying"
+Running query: CookieLess_Authentication (75%) Processing # 101 of 134
+2011-06-09 00:51:58,023 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="a4ae5ddc-a621-4f7d-9cbc-300543d84e25" RunStatus="Finished" TotalPercent="100" CurrentStage="2147483647" StageName="" CurrentStagePercent="0" StageMessage="Finish saving results" StepMessage="" Details="" TimeStarted="09/06/2011 00:40:47" TimeFinished="09/06/2011 00:43:41" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-06-09 00:51:58,023 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 100%
+2011-06-09 00:51:58,039 [pool-2-thread-1] (WaitScanCompletionJob.java:88) INFO  - Current stage: Finish saving results
+2011-06-09 00:51:58,039 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Finished
+Finish saving results (0%) 
+2011-06-09 00:51:58,039 [pool-1-thread-1] (CxScanJob.java:158) INFO  - Retrieving results
+2011-06-10 08:44:33,484 [pool-1-thread-1] (CxScanJob.java:78) INFO  - Packing project
+2011-06-10 08:44:40,016 [pool-1-thread-1] (CxScanJob.java:97) INFO  - Project name is "console.project_1307684680016"
+2011-06-10 08:44:40,016 [pool-1-thread-1] (CxScanJob.java:106) INFO  - Log in
+2011-06-10 08:44:40,407 [pool-1-thread-1] (CxScanJob.java:249) TRACE - Unsuccessful login. Login or password might be incorrect.
+2011-06-10 08:44:40,422 [main] (ScanFolderCommand.java:97) ERROR - Error during scan job execution: Unsuccessful login. Login or password might be incorrect.
+2011-06-10 08:44:40,438 [main] (ScanFolderCommand.java:100) TRACE - Error during scan job execution.
+java.util.concurrent.ExecutionException: java.lang.Exception: Unsuccessful login. Login or password might be incorrect.
+	at java.util.concurrent.FutureTask$Sync.innerGet(Unknown Source)
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at com.checkmarx.cxconsole.commands.ScanFolderCommand.executeCommand(ScanFolderCommand.java:88)
+	at com.checkmarx.cxconsole.commands.CxConsoleCommand.execute(CxConsoleCommand.java:76)
+	at com.checkmarx.cxconsole.CxConsoleLauncher.main(CxConsoleLauncher.java:93)
+Caused by: java.lang.Exception: Unsuccessful login. Login or password might be incorrect.
+	at com.checkmarx.cxconsole.commands.job.CxScanJob.login(CxScanJob.java:271)
+	at com.checkmarx.cxconsole.commands.job.CxScanJob.call(CxScanJob.java:108)
+	at com.checkmarx.cxconsole.commands.job.CxScanJob.call(CxScanJob.java:40)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2011-06-26 00:33:51,949 [pool-1-thread-1] (CxScanJob.java:78) INFO  - Packing project
+2011-06-26 00:33:53,355 [pool-1-thread-1] (CxScanJob.java:97) INFO  - Project name is "console.project_1309037633355"
+2011-06-26 00:33:53,355 [pool-1-thread-1] (CxScanJob.java:106) INFO  - Log in
+2011-06-26 00:33:53,746 [pool-1-thread-1] (CxScanJob.java:112) INFO  - Retrieving scan configurations
+2011-06-26 00:33:53,887 [pool-1-thread-1] (CxScanJob.java:130) INFO  - Request scan
+2011-06-26 00:33:54,965 [pool-1-thread-1] (CxScanJob.java:416) TRACE - Project scan request response:RunScanResult(scanId:c99655f7-4d2a-43f0-86cf-6aa624ed4a21)
+2011-06-26 00:33:54,981 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="c99655f7-4d2a-43f0-86cf-6aa624ed4a21" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="25/06/2011 14:26:13" TimeFinished="25/06/2013 14:26:13" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-06-26 00:33:54,981 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-06-26 00:33:54,981 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-06-26 00:33:54,981 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-06-26 00:34:55,006 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="c99655f7-4d2a-43f0-86cf-6aa624ed4a21" RunStatus="Running" TotalPercent="43" CurrentStage="19" StageName="Optimizing internal representation, Stage 5" CurrentStagePercent="27" StageMessage="Stage # 20 of 22" StepMessage="Processing # 685 of 2496" Details="Stage # 20 of 22" TimeStarted="25/06/2011 14:26:13" TimeFinished="25/06/2013 14:26:13" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-06-26 00:34:55,006 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 43%
+2011-06-26 00:34:55,006 [pool-2-thread-1] (WaitScanCompletionJob.java:84) INFO  - Current stage:  "Optimizing internal representation, Stage 5" - Stage # 20 of 22
+2011-06-26 00:34:55,006 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Running "Optimizing internal representation, Stage 5"
+Stage # 20 of 22 (27%) Processing # 685 of 2496
+2011-06-26 00:35:55,031 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="c99655f7-4d2a-43f0-86cf-6aa624ed4a21" RunStatus="Running" TotalPercent="88" CurrentStage="20" StageName="Querying" CurrentStagePercent="77" StageMessage="Running query: HardcodedCredentials" StepMessage="Processing # 104 of 134" Details="HardcodedCredentials" TimeStarted="25/06/2011 14:26:13" TimeFinished="25/06/2013 14:26:13" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-06-26 00:35:55,031 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 88%
+2011-06-26 00:35:55,047 [pool-2-thread-1] (WaitScanCompletionJob.java:84) INFO  - Current stage:  "Querying" - Running query: HardcodedCredentials
+2011-06-26 00:35:55,047 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Running "Querying"
+Running query: HardcodedCredentials (77%) Processing # 104 of 134
+2011-06-26 00:36:55,072 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="c99655f7-4d2a-43f0-86cf-6aa624ed4a21" RunStatus="Finished" TotalPercent="100" CurrentStage="2147483647" StageName="" CurrentStagePercent="0" StageMessage="Finish saving results" StepMessage="" Details="" TimeStarted="25/06/2011 14:26:13" TimeFinished="25/06/2011 14:28:57" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-06-26 00:36:55,072 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 100%
+2011-06-26 00:36:55,072 [pool-2-thread-1] (WaitScanCompletionJob.java:88) INFO  - Current stage: Finish saving results
+2011-06-26 00:36:55,072 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Finished
+Finish saving results (0%) 
+2011-06-26 00:36:55,072 [pool-1-thread-1] (CxScanJob.java:158) INFO  - Retrieving results
+2011-06-26 23:50:23,042 [pool-1-thread-1] (CxScanJob.java:78) INFO  - Packing project
+2011-06-26 23:50:26,527 [pool-1-thread-1] (CxScanJob.java:97) INFO  - Project name is "console.project_1309121426527"
+2011-06-26 23:50:26,527 [pool-1-thread-1] (CxScanJob.java:106) INFO  - Log in
+2011-06-26 23:50:26,902 [pool-1-thread-1] (CxScanJob.java:112) INFO  - Retrieving scan configurations
+2011-06-26 23:50:26,980 [pool-1-thread-1] (CxScanJob.java:130) INFO  - Request scan
+2011-06-26 23:50:27,918 [pool-1-thread-1] (CxScanJob.java:416) TRACE - Project scan request response:RunScanResult(scanId:524d6fa0-7535-4140-a10e-9c0d94afdcf0)
+2011-06-26 23:50:27,933 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="524d6fa0-7535-4140-a10e-9c0d94afdcf0" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="26/06/2011 13:42:46" TimeFinished="26/06/2013 13:42:46" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-06-26 23:50:27,933 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-06-26 23:50:27,933 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-06-26 23:50:27,933 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-06-26 23:51:27,959 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="524d6fa0-7535-4140-a10e-9c0d94afdcf0" RunStatus="Running" TotalPercent="43" CurrentStage="19" StageName="Optimizing internal representation, Stage 5" CurrentStagePercent="56" StageMessage="" StepMessage="Processing # 1418 of 2496" Details="N/A" TimeStarted="26/06/2011 13:42:46" TimeFinished="26/06/2013 13:42:46" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-06-26 23:51:27,959 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 43%
+2011-06-26 23:51:27,959 [pool-2-thread-1] (WaitScanCompletionJob.java:86) INFO  - Current stage:  "Optimizing internal representation, Stage 5"
+2011-06-26 23:51:27,959 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Running "Optimizing internal representation, Stage 5"
+ (56%) Processing # 1418 of 2496
+2011-06-26 23:52:27,984 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="524d6fa0-7535-4140-a10e-9c0d94afdcf0" RunStatus="Running" TotalPercent="99" CurrentStage="20" CurrentStagePercent="0" StageMessage="Saving results..." Details="Weak_Password_Authentication" TimeStarted="26/06/2011 13:42:46" TimeFinished="26/06/2011 13:44:25" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-06-26 23:52:27,984 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 99%
+2011-06-26 23:52:27,984 [pool-2-thread-1] (WaitScanCompletionJob.java:88) INFO  - Current stage: Saving results...
+2011-06-26 23:52:27,984 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Running
+Saving results... (0%) 
+2011-06-26 23:53:28,009 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="524d6fa0-7535-4140-a10e-9c0d94afdcf0" RunStatus="Finished" TotalPercent="100" CurrentStage="2147483647" StageName="" CurrentStagePercent="0" StageMessage="Finish saving results" StepMessage="" Details="" TimeStarted="26/06/2011 13:42:46" TimeFinished="26/06/2011 13:44:54" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-06-26 23:53:28,009 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 100%
+2011-06-26 23:53:28,009 [pool-2-thread-1] (WaitScanCompletionJob.java:88) INFO  - Current stage: Finish saving results
+2011-06-26 23:53:28,009 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Finished
+Finish saving results (0%) 
+2011-06-26 23:53:28,009 [pool-1-thread-1] (CxScanJob.java:158) INFO  - Retrieving results
+2011-07-05 11:13:57,892 [pool-1-thread-1] (CxScanJob.java:78) INFO  - Packing project
+2011-07-05 11:14:00,470 [pool-1-thread-1] (CxScanJob.java:97) INFO  - Project name is "console.project_1309853640470"
+2011-07-05 11:14:00,486 [pool-1-thread-1] (CxScanJob.java:106) INFO  - Log in
+2011-07-05 11:14:00,845 [pool-1-thread-1] (CxScanJob.java:112) INFO  - Retrieving scan configurations
+2011-07-05 11:14:00,939 [pool-1-thread-1] (CxScanJob.java:130) INFO  - Request scan
+2011-07-05 11:14:01,861 [pool-1-thread-1] (CxScanJob.java:416) TRACE - Project scan request response:RunScanResult(scanId:c529de16-d112-40d9-932d-f562f200f161)
+2011-07-05 11:14:01,877 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="c529de16-d112-40d9-932d-f562f200f161" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="05/07/2011 01:14:01" TimeFinished="05/07/2013 01:14:01" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-07-05 11:14:01,877 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-07-05 11:14:01,877 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-07-05 11:14:01,877 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-07-05 11:15:02,043 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="c529de16-d112-40d9-932d-f562f200f161" RunStatus="Running" TotalPercent="54" CurrentStage="20" StageName="Querying" CurrentStagePercent="8" StageMessage="Running query: Missing_XML_Validation" StepMessage="Processing # 12 of 134" Details="Missing_XML_Validation" TimeStarted="05/07/2011 01:14:01" TimeFinished="05/07/2013 01:14:01" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-07-05 11:15:02,043 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 54%
+2011-07-05 11:15:02,043 [pool-2-thread-1] (WaitScanCompletionJob.java:84) INFO  - Current stage:  "Querying" - Running query: Missing_XML_Validation
+2011-07-05 11:15:02,043 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Running "Querying"
+Running query: Missing_XML_Validation (8%) Processing # 12 of 134
+2011-07-05 11:16:02,226 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="c529de16-d112-40d9-932d-f562f200f161" RunStatus="Running" TotalPercent="99" CurrentStage="20" CurrentStagePercent="0" StageMessage="Saving results..." Details="Weak_Password_Authentication" TimeStarted="05/07/2011 01:14:01" TimeFinished="05/07/2011 01:16:01" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-07-05 11:16:02,226 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 99%
+2011-07-05 11:16:02,241 [pool-2-thread-1] (WaitScanCompletionJob.java:88) INFO  - Current stage: Saving results...
+2011-07-05 11:16:02,241 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Running
+Saving results... (0%) 
+2011-07-05 11:17:02,267 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="c529de16-d112-40d9-932d-f562f200f161" RunStatus="Finished" TotalPercent="100" CurrentStage="2147483647" StageName="" CurrentStagePercent="0" StageMessage="Finish saving results" StepMessage="" Details="" TimeStarted="05/07/2011 01:14:01" TimeFinished="05/07/2011 01:16:29" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-07-05 11:17:02,267 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 100%
+2011-07-05 11:17:02,267 [pool-2-thread-1] (WaitScanCompletionJob.java:88) INFO  - Current stage: Finish saving results
+2011-07-05 11:17:02,267 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Finished
+Finish saving results (0%) 
+2011-07-05 11:17:02,267 [pool-1-thread-1] (CxScanJob.java:158) INFO  - Retrieving results
+2011-07-11 17:42:10,179 [pool-1-thread-1] (CxScanJob.java:78) INFO  - Packing project
+2011-07-11 17:42:14,586 [pool-1-thread-1] (CxScanJob.java:97) INFO  - Project name is "console.project_1310395334586"
+2011-07-11 17:42:14,586 [pool-1-thread-1] (CxScanJob.java:106) INFO  - Log in
+2011-07-11 17:42:14,961 [pool-1-thread-1] (CxScanJob.java:112) INFO  - Retrieving scan configurations
+2011-07-11 17:42:15,055 [pool-1-thread-1] (CxScanJob.java:130) INFO  - Request scan
+2011-07-11 17:42:16,133 [pool-1-thread-1] (CxScanJob.java:416) TRACE - Project scan request response:RunScanResult(scanId:ab85da75-9c3e-4927-b2d2-9f689b5774e1)
+2011-07-11 17:42:16,149 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="ab85da75-9c3e-4927-b2d2-9f689b5774e1" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="11/07/2011 07:42:16" TimeFinished="11/07/2013 07:42:16" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-07-11 17:42:16,149 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-07-11 17:42:16,149 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-07-11 17:42:16,165 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-07-11 17:43:16,191 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="ab85da75-9c3e-4927-b2d2-9f689b5774e1" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="11/07/2011 07:42:16" TimeFinished="11/07/2013 07:42:16" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-07-11 17:43:16,191 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-07-11 17:43:16,769 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-07-11 17:43:16,769 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-07-11 17:44:16,310 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="ab85da75-9c3e-4927-b2d2-9f689b5774e1" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="11/07/2011 07:42:16" TimeFinished="11/07/2013 07:42:16" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-07-11 17:44:16,310 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-07-11 17:44:16,310 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-07-11 17:44:16,310 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-07-11 17:45:16,336 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="ab85da75-9c3e-4927-b2d2-9f689b5774e1" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="11/07/2011 07:42:16" TimeFinished="11/07/2013 07:42:16" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-07-11 17:45:16,336 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-07-11 17:45:16,352 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-07-11 17:45:16,368 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-07-11 17:46:16,378 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="ab85da75-9c3e-4927-b2d2-9f689b5774e1" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="11/07/2011 07:42:16" TimeFinished="11/07/2013 07:42:16" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-07-11 17:46:16,378 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-07-11 17:46:16,378 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-07-11 17:46:16,378 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-07-11 17:47:16,404 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="ab85da75-9c3e-4927-b2d2-9f689b5774e1" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="11/07/2011 07:42:16" TimeFinished="11/07/2013 07:42:16" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-07-11 17:47:16,404 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-07-11 17:47:16,404 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-07-11 17:47:16,404 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-07-11 17:48:16,461 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="ab85da75-9c3e-4927-b2d2-9f689b5774e1" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="11/07/2011 07:42:16" TimeFinished="11/07/2013 07:42:16" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-07-11 17:48:16,461 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-07-11 17:48:16,461 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-07-11 17:48:16,461 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-07-11 17:49:16,487 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="ab85da75-9c3e-4927-b2d2-9f689b5774e1" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="11/07/2011 07:42:16" TimeFinished="11/07/2013 07:42:16" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-07-11 17:49:16,487 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-07-11 17:49:16,487 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-07-11 17:49:16,503 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-07-11 17:50:16,513 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="ab85da75-9c3e-4927-b2d2-9f689b5774e1" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="11/07/2011 07:42:16" TimeFinished="11/07/2013 07:42:16" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-07-11 17:50:16,529 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-07-11 17:50:16,529 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-07-11 17:50:16,529 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-07-11 17:51:16,571 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="ab85da75-9c3e-4927-b2d2-9f689b5774e1" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="11/07/2011 07:42:16" TimeFinished="11/07/2013 07:42:16" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-07-11 17:51:16,571 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-07-11 17:51:16,571 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-07-11 17:51:16,571 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-07-11 17:52:16,612 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="ab85da75-9c3e-4927-b2d2-9f689b5774e1" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="11/07/2011 07:42:16" TimeFinished="11/07/2013 07:42:16" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-07-11 17:52:16,612 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-07-11 17:52:16,612 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-07-11 17:52:16,612 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-07-11 17:53:16,654 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="ab85da75-9c3e-4927-b2d2-9f689b5774e1" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="11/07/2011 07:42:16" TimeFinished="11/07/2013 07:42:16" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-07-11 17:53:16,654 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-07-11 17:53:16,888 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-07-11 17:53:16,904 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-07-11 17:54:16,977 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="ab85da75-9c3e-4927-b2d2-9f689b5774e1" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="11/07/2011 07:42:16" TimeFinished="11/07/2013 07:42:16" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-07-11 17:54:16,977 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-07-11 17:54:16,977 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-07-11 17:54:16,977 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-07-11 17:55:17,003 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="ab85da75-9c3e-4927-b2d2-9f689b5774e1" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="11/07/2011 07:42:16" TimeFinished="11/07/2013 07:42:16" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-07-11 17:55:17,003 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-07-11 17:55:17,003 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-07-11 17:55:17,003 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-07-11 17:56:17,044 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="ab85da75-9c3e-4927-b2d2-9f689b5774e1" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="11/07/2011 07:42:16" TimeFinished="11/07/2013 07:42:16" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-07-11 17:56:17,060 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-07-11 17:56:17,060 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-07-11 17:56:17,060 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-07-11 17:57:17,086 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="ab85da75-9c3e-4927-b2d2-9f689b5774e1" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="11/07/2011 07:42:16" TimeFinished="11/07/2013 07:42:16" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-07-11 17:57:17,102 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-07-11 17:57:17,102 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-07-11 17:57:17,102 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-07-11 17:58:17,128 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="ab85da75-9c3e-4927-b2d2-9f689b5774e1" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="11/07/2011 07:42:16" TimeFinished="11/07/2013 07:42:16" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-07-11 17:58:17,128 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-07-11 17:58:17,128 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-07-11 17:58:17,128 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-07-11 17:59:17,154 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="ab85da75-9c3e-4927-b2d2-9f689b5774e1" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="11/07/2011 07:42:16" TimeFinished="11/07/2013 07:42:16" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-07-11 17:59:17,154 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-07-11 17:59:17,154 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-07-11 17:59:17,154 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-07-11 18:00:17,180 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="ab85da75-9c3e-4927-b2d2-9f689b5774e1" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="11/07/2011 07:42:16" TimeFinished="11/07/2013 07:42:16" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-07-11 18:00:17,195 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-07-11 18:00:17,195 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-07-11 18:00:17,195 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-07-11 18:01:17,237 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="ab85da75-9c3e-4927-b2d2-9f689b5774e1" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="11/07/2011 07:42:16" TimeFinished="11/07/2013 07:42:16" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-07-11 18:01:17,253 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-07-11 18:01:17,253 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-07-11 18:01:17,253 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-07-11 18:02:17,294 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="ab85da75-9c3e-4927-b2d2-9f689b5774e1" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="11/07/2011 07:42:16" TimeFinished="11/07/2013 07:42:16" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-07-11 18:02:17,294 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-07-11 18:02:17,294 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-07-11 18:02:17,310 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-07-11 18:03:17,351 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="ab85da75-9c3e-4927-b2d2-9f689b5774e1" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="11/07/2011 07:42:16" TimeFinished="11/07/2013 07:42:16" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-07-11 18:03:17,351 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-07-11 18:03:17,367 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-07-11 18:03:17,367 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-07-11 18:04:17,377 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="ab85da75-9c3e-4927-b2d2-9f689b5774e1" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="11/07/2011 07:42:16" TimeFinished="11/07/2013 07:42:16" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-07-11 18:04:17,393 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-07-11 18:04:17,409 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-07-11 18:04:17,440 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-07-11 18:05:17,497 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="ab85da75-9c3e-4927-b2d2-9f689b5774e1" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="11/07/2011 07:42:16" TimeFinished="11/07/2013 07:42:16" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-07-11 18:05:17,513 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-07-11 18:05:17,513 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-07-11 18:05:17,513 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-07-11 18:06:17,617 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="ab85da75-9c3e-4927-b2d2-9f689b5774e1" RunStatus="Running" TotalPercent="43" CurrentStage="19" StageName="Optimizing internal representation, Stage 5" CurrentStagePercent="25" StageMessage="Stage # 20 of 22" StepMessage="Processing # 624 of 2496" Details="N/A" TimeStarted="11/07/2011 07:42:16" TimeFinished="11/07/2013 07:42:16" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-07-11 18:06:17,617 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 43%
+2011-07-11 18:06:17,617 [pool-2-thread-1] (WaitScanCompletionJob.java:84) INFO  - Current stage:  "Optimizing internal representation, Stage 5" - Stage # 20 of 22
+2011-07-11 18:06:17,617 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Running "Optimizing internal representation, Stage 5"
+Stage # 20 of 22 (25%) Processing # 624 of 2496
+2011-07-11 18:07:17,690 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="ab85da75-9c3e-4927-b2d2-9f689b5774e1" RunStatus="Running" TotalPercent="90" CurrentStage="20" StageName="Querying" CurrentStagePercent="80" StageMessage="Running query: SlidingExpiration" StepMessage="Processing # 108 of 134" Details="SlidingExpiration" TimeStarted="11/07/2011 07:42:16" TimeFinished="11/07/2013 07:42:16" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-07-11 18:07:17,690 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 90%
+2011-07-11 18:07:17,705 [pool-2-thread-1] (WaitScanCompletionJob.java:84) INFO  - Current stage:  "Querying" - Running query: SlidingExpiration
+2011-07-11 18:07:17,705 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Running "Querying"
+Running query: SlidingExpiration (80%) Processing # 108 of 134
+2011-07-11 18:08:17,966 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="ab85da75-9c3e-4927-b2d2-9f689b5774e1" RunStatus="Finished" TotalPercent="100" CurrentStage="2147483647" StageName="" CurrentStagePercent="0" StageMessage="Finish saving results" StepMessage="" Details="" TimeStarted="11/07/2011 07:42:16" TimeFinished="11/07/2011 08:07:59" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-07-11 18:08:17,966 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 100%
+2011-07-11 18:08:17,966 [pool-2-thread-1] (WaitScanCompletionJob.java:88) INFO  - Current stage: Finish saving results
+2011-07-11 18:08:17,966 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Finished
+Finish saving results (0%) 
+2011-07-11 18:08:17,966 [pool-1-thread-1] (CxScanJob.java:158) INFO  - Retrieving results
+2011-08-01 17:47:16,133 [pool-1-thread-1] (CxScanJob.java:78) INFO  - Packing project
+2011-08-01 17:47:18,524 [pool-1-thread-1] (CxScanJob.java:97) INFO  - Project name is "BookStore.NET_17584lines"
+2011-08-01 17:47:18,524 [pool-1-thread-1] (CxScanJob.java:106) INFO  - Log in
+2011-08-01 17:47:18,914 [pool-1-thread-1] (CxScanJob.java:112) INFO  - Retrieving scan configurations
+2011-08-01 17:47:19,008 [pool-1-thread-1] (CxScanJob.java:133) INFO  - Request scan
+2011-08-01 17:47:19,024 [pool-1-thread-1] (CxScanJob.java:397) INFO  - isVisible to others flag: true
+2011-08-01 17:47:20,399 [pool-1-thread-1] (CxScanJob.java:436) TRACE - Project scan request response:RunScanResult(scanId:ac377584-76b5-4eb6-8aff-0ade8331beb1)
+2011-08-01 17:47:20,430 [pool-2-thread-1] (WaitScanCompletionJob.java:58) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="ac377584-76b5-4eb6-8aff-0ade8331beb1" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="01/08/2011 07:48:18" TimeFinished="01/08/2013 07:48:18" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-08-01 17:47:20,430 [pool-2-thread-1] (WaitScanCompletionJob.java:70) INFO  - Total scan worked: 0%
+2011-08-01 17:47:20,430 [pool-2-thread-1] (WaitScanCompletionJob.java:106) INFO  - Scan state: Queued
+2011-08-01 17:47:20,430 [pool-2-thread-1] (WaitScanCompletionJob.java:110) TRACE - Queued
+ (0%) 
+2011-08-01 17:48:20,534 [pool-2-thread-1] (WaitScanCompletionJob.java:58) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="ac377584-76b5-4eb6-8aff-0ade8331beb1" RunStatus="Running" TotalPercent="43" CurrentStage="19" StageName="Optimizing internal representation, Stage 5" CurrentStagePercent="50" StageMessage="Stage # 20 of 22" StepMessage="Processing # 1248 of 2496" Details="Stage # 20 of 22" TimeStarted="01/08/2011 07:48:18" TimeFinished="01/08/2013 07:48:18" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-08-01 17:48:20,534 [pool-2-thread-1] (WaitScanCompletionJob.java:70) INFO  - Total scan worked: 43%
+2011-08-01 17:48:20,534 [pool-2-thread-1] (WaitScanCompletionJob.java:100) INFO  - Current stage:  "Optimizing internal representation, Stage 5" - Stage # 20 of 22
+2011-08-01 17:48:20,534 [pool-2-thread-1] (WaitScanCompletionJob.java:110) TRACE - Running "Optimizing internal representation, Stage 5"
+Stage # 20 of 22 (50%) Processing # 1248 of 2496
+2011-08-01 17:49:20,560 [pool-2-thread-1] (WaitScanCompletionJob.java:58) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="ac377584-76b5-4eb6-8aff-0ade8331beb1" RunStatus="Running" TotalPercent="99" CurrentStage="20" StageName="Querying" CurrentStagePercent="99" StageMessage="Running query: Weak_Password_Authentication" StepMessage="Processing # 133 of 134" Details="Weak_Password_Authentication" TimeStarted="01/08/2011 07:48:18" TimeFinished="01/08/2013 07:48:18" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-08-01 17:49:20,560 [pool-2-thread-1] (WaitScanCompletionJob.java:70) INFO  - Total scan worked: 99%
+2011-08-01 17:49:20,560 [pool-2-thread-1] (WaitScanCompletionJob.java:100) INFO  - Current stage:  "Querying" - Running query: Weak_Password_Authentication
+2011-08-01 17:49:20,560 [pool-2-thread-1] (WaitScanCompletionJob.java:110) TRACE - Running "Querying"
+Running query: Weak_Password_Authentication (99%) Processing # 133 of 134
+2011-08-01 17:50:20,601 [pool-2-thread-1] (WaitScanCompletionJob.java:58) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="ac377584-76b5-4eb6-8aff-0ade8331beb1" RunStatus="Finished" TotalPercent="100" CurrentStage="2147483647" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="01/08/2011 07:48:18" TimeFinished="01/08/2011 07:50:49" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-08-01 17:50:20,601 [pool-2-thread-1] (WaitScanCompletionJob.java:70) INFO  - Total scan worked: 100%
+2011-08-01 17:50:20,601 [pool-2-thread-1] (WaitScanCompletionJob.java:106) INFO  - Scan state: Finished
+2011-08-01 17:50:20,601 [pool-2-thread-1] (WaitScanCompletionJob.java:110) TRACE - Finished
+ (0%) 
+2011-08-01 17:50:20,601 [pool-1-thread-1] (CxScanJob.java:161) INFO  - Retrieving results
+2011-08-01 17:50:25,633 [pool-1-thread-1] (CxScanJob.java:517) INFO  - Saving xml results to file [Q:\Projects\C#\BookStore.NET_17584lines\BookStore.NET_17584lines.xml]
+2011-08-04 00:45:39,487 [pool-1-thread-1] (CxScanJob.java:78) INFO  - Packing project
+2011-08-04 00:45:41,644 [pool-1-thread-1] (CxScanJob.java:97) INFO  - Project name is "console.project_1312407941644"
+2011-08-04 00:45:41,644 [pool-1-thread-1] (CxScanJob.java:106) INFO  - Log in
+2011-08-04 00:45:42,019 [pool-1-thread-1] (CxScanJob.java:112) INFO  - Retrieving scan configurations
+2011-08-04 00:45:42,128 [pool-1-thread-1] (CxScanJob.java:130) INFO  - Request scan
+2011-08-04 00:45:43,113 [pool-1-thread-1] (CxScanJob.java:416) TRACE - Project scan request response:RunScanResult(scanId:9075eed6-f407-41b1-9b6c-46c5e41cd223)
+2011-08-04 00:45:43,129 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="9075eed6-f407-41b1-9b6c-46c5e41cd223" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="03/08/2011 14:38:30" TimeFinished="03/08/2013 14:38:30" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-08-04 00:45:43,129 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-08-04 00:45:43,129 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-08-04 00:45:43,129 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-08-04 00:46:43,186 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="9075eed6-f407-41b1-9b6c-46c5e41cd223" RunStatus="Running" TotalPercent="58" CurrentStage="20" StageName="Querying" CurrentStagePercent="17" StageMessage="Running query: Visible_Pointers" StepMessage="Processing # 23 of 134" Details="Visible_Pointers" TimeStarted="03/08/2011 14:38:30" TimeFinished="03/08/2013 14:38:30" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-08-04 00:46:43,186 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 58%
+2011-08-04 00:46:43,186 [pool-2-thread-1] (WaitScanCompletionJob.java:84) INFO  - Current stage:  "Querying" - Running query: Visible_Pointers
+2011-08-04 00:46:43,186 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Running "Querying"
+Running query: Visible_Pointers (17%) Processing # 23 of 134
+2011-08-04 00:47:43,211 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="9075eed6-f407-41b1-9b6c-46c5e41cd223" RunStatus="Running" TotalPercent="99" CurrentStage="20" CurrentStagePercent="0" StageMessage="Saving results..." Details="Weak_Password_Authentication" TimeStarted="03/08/2011 14:38:30" TimeFinished="03/08/2011 14:40:28" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-08-04 00:47:43,211 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 99%
+2011-08-04 00:47:43,211 [pool-2-thread-1] (WaitScanCompletionJob.java:88) INFO  - Current stage: Saving results...
+2011-08-04 00:47:43,211 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Running
+Saving results... (0%) 
+2011-08-04 00:48:43,237 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="9075eed6-f407-41b1-9b6c-46c5e41cd223" RunStatus="Finished" TotalPercent="100" CurrentStage="2147483647" StageName="" CurrentStagePercent="0" StageMessage="Finish saving results" StepMessage="" Details="" TimeStarted="03/08/2011 14:38:30" TimeFinished="03/08/2011 14:40:57" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-08-04 00:48:43,237 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 100%
+2011-08-04 00:48:43,237 [pool-2-thread-1] (WaitScanCompletionJob.java:88) INFO  - Current stage: Finish saving results
+2011-08-04 00:48:43,237 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Finished
+Finish saving results (0%) 
+2011-08-04 00:48:43,237 [pool-1-thread-1] (CxScanJob.java:158) INFO  - Retrieving results
+2011-09-06 18:31:25,545 [pool-1-thread-1] (CxScanJob.java:85) INFO  - Packing project
+2011-09-06 18:31:31,321 [pool-1-thread-1] (CxScanJob.java:104) INFO  - Project name is "BookStore.NET_17584lines"
+2011-09-06 18:31:31,321 [pool-1-thread-1] (CxScanJob.java:113) INFO  - Log in
+2011-09-06 18:31:32,258 [pool-1-thread-1] (CxScanJob.java:119) INFO  - Retrieving scan configurations
+2011-09-06 18:31:32,305 [pool-1-thread-1] (CxScanJob.java:140) INFO  - Request scan
+2011-09-06 18:31:32,320 [pool-1-thread-1] (CxScanJob.java:398) INFO  - isVisible to others flag: true
+2011-09-06 18:31:33,694 [pool-1-thread-1] (CxScanJob.java:440) TRACE - Project scan request response:RunScanResult(scanId:ba4ec728-4fcc-4dd6-8ad9-4bbb0093bbb6,projectId:33)
+2011-09-06 18:31:33,788 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ ba4ec728-4fcc-4dd6-8ad9-4bbb0093bbb6 | QUEUED | 0 | 0 |  | 0 |  |  | 2011-9-6 8:31:36 | 2013-9-6 8:31:36 | -1 |  | 33| 0 | 33 | 0 })
+2011-09-06 18:31:33,788 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 0%
+2011-09-06 18:31:33,788 [pool-2-thread-1] (WaitScanCompletionJob.java:110) INFO  - Scan state: QUEUED
+2011-09-06 18:31:33,788 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - QUEUED
+ (0%) 
+2011-09-06 18:32:33,874 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ ba4ec728-4fcc-4dd6-8ad9-4bbb0093bbb6 | WORKING | 43 | 19 | Optimizing internal representation, Stage 5 | 52 | Stage # 20 of 22 | Processing # 1314 of 2496 | 2011-9-6 8:31:36 | 2013-9-6 8:31:36 | -1 | Stage # 20 of 22 | 33| 0 | 33 | 0 })
+2011-09-06 18:32:33,889 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 43%
+2011-09-06 18:32:33,936 [pool-2-thread-1] (WaitScanCompletionJob.java:104) INFO  - Current stage:  "Optimizing internal representation, Stage 5" - Stage # 20 of 22
+2011-09-06 18:32:33,936 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - WORKING "Optimizing internal representation, Stage 5"
+Stage # 20 of 22 (52%) Processing # 1314 of 2496
+2011-09-06 18:33:33,960 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ ba4ec728-4fcc-4dd6-8ad9-4bbb0093bbb6 | WORKING | 99 | 20 | null | 0 | Saving results... | null | 2011-9-6 8:31:36 | 2011-9-6 8:33:26 | -1 | Weak_Password_Authentication | 33| 0 | 33 | 19 })
+2011-09-06 18:33:33,960 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 99%
+2011-09-06 18:33:33,960 [pool-2-thread-1] (WaitScanCompletionJob.java:108) INFO  - Current stage: Saving results...
+2011-09-06 18:33:33,960 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - WORKING
+Saving results... (0%) 
+2011-09-06 18:34:34,639 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ ba4ec728-4fcc-4dd6-8ad9-4bbb0093bbb6 | FINISHED | 100 | 2147483647 |  | 0 | Finish saving results |  | 2011-9-6 8:31:36 | 2011-9-6 8:33:55 | -1 |  | 33| 18 | 33 | 19 })
+2011-09-06 18:34:34,748 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 100%
+2011-09-06 18:34:34,810 [pool-2-thread-1] (WaitScanCompletionJob.java:108) INFO  - Current stage: Finish saving results
+2011-09-06 18:34:34,873 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - FINISHED
+Finish saving results (0%) 
+2011-09-06 18:34:34,873 [pool-2-thread-1] (WaitScanCompletionJob.java:126) INFO  - Finish saving results
+2011-09-06 18:34:34,873 [pool-1-thread-1] (CxScanJob.java:171) INFO  - Retrieving results
+2011-09-06 18:34:40,321 [pool-1-thread-1] (CxScanJob.java:498) INFO  - Saving xml results to file [Q:\Projects\C#\BookStore.NET_17584lines\BookStore.NET_17584lines.xml]
+2011-09-11 16:09:05,926 [pool-1-thread-1] (CxScanJob.java:78) INFO  - Packing project
+2011-09-11 16:09:10,550 [pool-1-thread-1] (CxScanJob.java:97) INFO  - Project name is "BookStore.NET_17584lines"
+2011-09-11 16:09:10,550 [pool-1-thread-1] (CxScanJob.java:106) INFO  - Log in
+2011-09-11 16:09:10,987 [pool-1-thread-1] (CxScanJob.java:112) INFO  - Retrieving scan configurations
+2011-09-11 16:09:11,097 [pool-1-thread-1] (CxScanJob.java:133) INFO  - Request scan
+2011-09-11 16:09:11,097 [pool-1-thread-1] (CxScanJob.java:397) INFO  - isVisible to others flag: true
+2011-09-11 16:09:12,596 [pool-1-thread-1] (CxScanJob.java:436) TRACE - Project scan request response:RunScanResult(scanId:facd0f9d-52cb-448c-b578-d15a078400f7)
+2011-09-11 16:09:12,628 [pool-2-thread-1] (WaitScanCompletionJob.java:58) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="facd0f9d-52cb-448c-b578-d15a078400f7" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="11/09/2011 06:07:44" TimeFinished="11/09/2013 06:07:44" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-09-11 16:09:12,628 [pool-2-thread-1] (WaitScanCompletionJob.java:70) INFO  - Total scan worked: 0%
+2011-09-11 16:09:12,628 [pool-2-thread-1] (WaitScanCompletionJob.java:106) INFO  - Scan state: Queued
+2011-09-11 16:09:12,643 [pool-2-thread-1] (WaitScanCompletionJob.java:110) TRACE - Queued
+ (0%) 
+2011-09-11 16:10:12,774 [pool-2-thread-1] (WaitScanCompletionJob.java:58) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="facd0f9d-52cb-448c-b578-d15a078400f7" RunStatus="Running" TotalPercent="40" CurrentStage="18" StageName="Optimizing internal representation, Stage 4" CurrentStagePercent="0" StageMessage="Stage # 19 of 22" StepMessage="Processing # 0 of 2415" Details="DefaultConstructor:JSContainer_3" TimeStarted="11/09/2011 06:07:44" TimeFinished="11/09/2013 06:07:44" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-09-11 16:10:12,774 [pool-2-thread-1] (WaitScanCompletionJob.java:70) INFO  - Total scan worked: 40%
+2011-09-11 16:10:12,774 [pool-2-thread-1] (WaitScanCompletionJob.java:100) INFO  - Current stage:  "Optimizing internal representation, Stage 4" - Stage # 19 of 22
+2011-09-11 16:10:12,774 [pool-2-thread-1] (WaitScanCompletionJob.java:110) TRACE - Running "Optimizing internal representation, Stage 4"
+Stage # 19 of 22 (0%) Processing # 0 of 2415
+2011-09-11 16:11:12,795 [pool-2-thread-1] (WaitScanCompletionJob.java:58) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="facd0f9d-52cb-448c-b578-d15a078400f7" RunStatus="Running" TotalPercent="64" CurrentStage="20" StageName="Querying" CurrentStagePercent="28" StageMessage="Running query: XPath_Injection" StepMessage="Processing # 38 of 134" Details="XPath_Injection" TimeStarted="11/09/2011 06:07:44" TimeFinished="11/09/2013 06:07:44" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-09-11 16:11:12,811 [pool-2-thread-1] (WaitScanCompletionJob.java:70) INFO  - Total scan worked: 64%
+2011-09-11 16:11:12,826 [pool-2-thread-1] (WaitScanCompletionJob.java:100) INFO  - Current stage:  "Querying" - Running query: XPath_Injection
+2011-09-11 16:11:12,826 [pool-2-thread-1] (WaitScanCompletionJob.java:110) TRACE - Running "Querying"
+Running query: XPath_Injection (28%) Processing # 38 of 134
+2011-09-11 16:12:12,910 [pool-2-thread-1] (WaitScanCompletionJob.java:58) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="facd0f9d-52cb-448c-b578-d15a078400f7" RunStatus="Running" TotalPercent="99" CurrentStage="20" CurrentStagePercent="0" StageMessage="Saving results..." Details="Weak_Password_Authentication" TimeStarted="11/09/2011 06:07:44" TimeFinished="11/09/2011 06:10:37" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-09-11 16:12:12,910 [pool-2-thread-1] (WaitScanCompletionJob.java:70) INFO  - Total scan worked: 99%
+2011-09-11 16:12:12,910 [pool-2-thread-1] (WaitScanCompletionJob.java:104) INFO  - Current stage: Saving results...
+2011-09-11 16:12:12,910 [pool-2-thread-1] (WaitScanCompletionJob.java:110) TRACE - Running
+Saving results... (0%) 
+2011-09-11 16:13:13,072 [pool-2-thread-1] (WaitScanCompletionJob.java:58) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="facd0f9d-52cb-448c-b578-d15a078400f7" RunStatus="Finished" TotalPercent="100" CurrentStage="2147483647" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="11/09/2011 06:07:44" TimeFinished="11/09/2011 06:11:20" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-09-11 16:13:13,072 [pool-2-thread-1] (WaitScanCompletionJob.java:70) INFO  - Total scan worked: 100%
+2011-09-11 16:13:13,072 [pool-2-thread-1] (WaitScanCompletionJob.java:106) INFO  - Scan state: Finished
+2011-09-11 16:13:13,072 [pool-2-thread-1] (WaitScanCompletionJob.java:110) TRACE - Finished
+ (0%) 
+2011-09-11 16:13:13,072 [pool-1-thread-1] (CxScanJob.java:161) INFO  - Retrieving results
+2011-09-11 16:13:15,978 [pool-1-thread-1] (CxScanJob.java:517) INFO  - Saving xml results to file [Q:\Projects\C#\BookStore.NET_17584lines\BookStore.NET_17584lines.xml]
+2011-09-13 15:54:15,195 [pool-1-thread-1] (CxScanJob.java:78) INFO  - Packing project
+2011-09-13 15:54:16,397 [pool-1-thread-1] (CxScanJob.java:97) INFO  - Project name is "BookStore.NET_17584lines"
+2011-09-13 15:54:16,413 [pool-1-thread-1] (CxScanJob.java:106) INFO  - Log in
+2011-09-13 15:54:16,850 [pool-1-thread-1] (CxScanJob.java:112) INFO  - Retrieving scan configurations
+2011-09-13 15:54:17,147 [pool-1-thread-1] (CxScanJob.java:133) INFO  - Request scan
+2011-09-13 15:54:17,147 [pool-1-thread-1] (CxScanJob.java:397) INFO  - isVisible to others flag: true
+2011-09-13 15:54:18,896 [pool-1-thread-1] (CxScanJob.java:436) TRACE - Project scan request response:RunScanResult(scanId:93a6ce1c-0032-4c77-a883-1f485d8d2e75)
+2011-09-13 15:54:18,912 [pool-2-thread-1] (WaitScanCompletionJob.java:58) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="93a6ce1c-0032-4c77-a883-1f485d8d2e75" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="13/09/2011 05:52:56" TimeFinished="13/09/2013 05:52:56" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-09-13 15:54:18,912 [pool-2-thread-1] (WaitScanCompletionJob.java:70) INFO  - Total scan worked: 0%
+2011-09-13 15:54:18,927 [pool-2-thread-1] (WaitScanCompletionJob.java:106) INFO  - Scan state: Queued
+2011-09-13 15:54:18,927 [pool-2-thread-1] (WaitScanCompletionJob.java:110) TRACE - Queued
+ (0%) 
+2011-09-13 15:55:19,181 [pool-2-thread-1] (WaitScanCompletionJob.java:58) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="93a6ce1c-0032-4c77-a883-1f485d8d2e75" RunStatus="Running" TotalPercent="43" CurrentStage="19" StageName="Optimizing internal representation, Stage 5" CurrentStagePercent="50" StageMessage="Stage # 20 of 22" StepMessage="Processing # 1248 of 2496" Details="Stage # 20 of 22" TimeStarted="13/09/2011 05:52:56" TimeFinished="13/09/2013 05:52:56" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-09-13 15:55:19,181 [pool-2-thread-1] (WaitScanCompletionJob.java:70) INFO  - Total scan worked: 43%
+2011-09-13 15:55:19,181 [pool-2-thread-1] (WaitScanCompletionJob.java:100) INFO  - Current stage:  "Optimizing internal representation, Stage 5" - Stage # 20 of 22
+2011-09-13 15:55:19,181 [pool-2-thread-1] (WaitScanCompletionJob.java:110) TRACE - Running "Optimizing internal representation, Stage 5"
+Stage # 20 of 22 (50%) Processing # 1248 of 2496
+2011-09-13 15:56:19,231 [pool-2-thread-1] (WaitScanCompletionJob.java:58) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="93a6ce1c-0032-4c77-a883-1f485d8d2e75" RunStatus="Running" TotalPercent="96" CurrentStage="20" StageName="Querying" CurrentStagePercent="93" StageMessage="Running query: Weak_Password_Authentication" StepMessage="Processing # 125 of 134" Details="Weak_Password_Authentication" TimeStarted="13/09/2011 05:52:56" TimeFinished="13/09/2013 05:52:56" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-09-13 15:56:19,231 [pool-2-thread-1] (WaitScanCompletionJob.java:70) INFO  - Total scan worked: 96%
+2011-09-13 15:56:19,231 [pool-2-thread-1] (WaitScanCompletionJob.java:100) INFO  - Current stage:  "Querying" - Running query: Weak_Password_Authentication
+2011-09-13 15:56:19,231 [pool-2-thread-1] (WaitScanCompletionJob.java:110) TRACE - Running "Querying"
+Running query: Weak_Password_Authentication (93%) Processing # 125 of 134
+2011-09-13 15:57:19,281 [pool-2-thread-1] (WaitScanCompletionJob.java:58) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="93a6ce1c-0032-4c77-a883-1f485d8d2e75" RunStatus="Finished" TotalPercent="100" CurrentStage="2147483647" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="13/09/2011 05:52:56" TimeFinished="13/09/2011 05:55:34" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-09-13 15:57:19,281 [pool-2-thread-1] (WaitScanCompletionJob.java:70) INFO  - Total scan worked: 100%
+2011-09-13 15:57:19,281 [pool-2-thread-1] (WaitScanCompletionJob.java:106) INFO  - Scan state: Finished
+2011-09-13 15:57:19,281 [pool-2-thread-1] (WaitScanCompletionJob.java:110) TRACE - Finished
+ (0%) 
+2011-09-13 15:57:19,296 [pool-1-thread-1] (CxScanJob.java:161) INFO  - Retrieving results
+2011-09-13 15:57:24,216 [pool-1-thread-1] (CxScanJob.java:517) INFO  - Saving xml results to file [Q:\Projects\C#\BookStore.NET_17584lines\BookStore.NET_17584lines.xml]
+2011-10-02 12:46:39,095 [pool-1-thread-1] (CxScanJob.java:88) INFO  - Packing project
+2011-10-02 12:46:44,249 [pool-1-thread-1] (CxScanJob.java:107) INFO  - Project name is "BookStore.NET_17584lines"
+2011-10-02 12:46:45,155 [pool-1-thread-1] (CxScanJob.java:257) INFO  - Check CLI version support: 1.2.3
+2011-10-02 12:46:45,202 [pool-1-thread-1] (CxScanJob.java:270) INFO  - Log in
+2011-10-02 12:46:45,218 [pool-1-thread-1] (CxScanJob.java:119) INFO  - Retrieving scan configurations
+2011-10-02 12:46:45,280 [pool-1-thread-1] (CxScanJob.java:140) INFO  - Request scan
+2011-10-02 12:46:45,296 [pool-1-thread-1] (CxScanJob.java:414) INFO  - isVisible to others flag: true
+2011-10-02 12:46:46,389 [pool-1-thread-1] (CxScanJob.java:456) TRACE - Project scan request response:RunScanResult(scanId:a10c28bf-8ef4-4577-970e-03a780b422d7,projectId:11)
+2011-10-02 12:46:46,421 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ a10c28bf-8ef4-4577-970e-03a780b422d7 | QUEUED | 0 | 0 |  | 0 |  |  | 2011-10-2 3:45:44 | 2013-10-2 3:45:44 | -1 |  | 11| 0 | 11 | 0 })
+2011-10-02 12:46:46,421 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 0%
+2011-10-02 12:46:46,421 [pool-2-thread-1] (WaitScanCompletionJob.java:110) INFO  - Scan state: QUEUED
+2011-10-02 12:46:46,436 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - QUEUED
+ (0%) 
+2011-10-02 12:47:46,448 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ a10c28bf-8ef4-4577-970e-03a780b422d7 | WORKING | 43 | 19 | Optimizing internal representation, Stage 5 | 50 | Stage # 20 of 22 | Processing # 1248 of 2496 | 2011-10-2 3:45:44 | 2013-10-2 3:45:44 | -1 | Stage # 20 of 22 | 11| 0 | 11 | 0 })
+2011-10-02 12:47:46,448 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 43%
+2011-10-02 12:47:46,448 [pool-2-thread-1] (WaitScanCompletionJob.java:104) INFO  - Current stage:  "Optimizing internal representation, Stage 5" - Stage # 20 of 22
+2011-10-02 12:47:46,448 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - WORKING "Optimizing internal representation, Stage 5"
+Stage # 20 of 22 (50%) Processing # 1248 of 2496
+2011-10-02 12:48:46,943 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ a10c28bf-8ef4-4577-970e-03a780b422d7 | WORKING | 97 | 20 | Querying | 94 | Running query: Cookies_Inspection | Processing # 129 of 136 | 2011-10-2 3:45:44 | 2013-10-2 3:45:44 | -1 | Cookies_Inspection | 11| 0 | 11 | 11 })
+2011-10-02 12:48:46,943 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 97%
+2011-10-02 12:48:46,943 [pool-2-thread-1] (WaitScanCompletionJob.java:104) INFO  - Current stage:  "Querying" - Running query: Cookies_Inspection
+2011-10-02 12:48:46,959 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - WORKING "Querying"
+Running query: Cookies_Inspection (94%) Processing # 129 of 136
+2011-10-02 12:49:46,970 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ a10c28bf-8ef4-4577-970e-03a780b422d7 | FINISHED | 100 | 2147483647 |  | 0 | Finish saving results |  | 2011-10-2 3:45:44 | 2011-10-2 3:48:26 | -1 |  | 11| 11 | 11 | 11 })
+2011-10-02 12:49:46,970 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 100%
+2011-10-02 12:49:46,970 [pool-2-thread-1] (WaitScanCompletionJob.java:108) INFO  - Current stage: Finish saving results
+2011-10-02 12:49:46,970 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - FINISHED
+Finish saving results (0%) 
+2011-10-02 12:49:46,970 [pool-2-thread-1] (WaitScanCompletionJob.java:126) INFO  - Finish saving results
+2011-10-02 12:49:46,970 [pool-1-thread-1] (CxScanJob.java:171) INFO  - Retrieving results
+2011-10-02 12:49:53,265 [pool-1-thread-1] (CxScanJob.java:514) INFO  - Saving xml results to file [Q:\Projects\C#\BookStore.NET_17584lines\BookStore.NET_17584lines.xml]
+2011-10-27 18:06:26,505 [pool-1-thread-1] (CxScanJob.java:89) INFO  - Packing project
+2011-10-27 18:06:29,373 [pool-1-thread-1] (CxScanJob.java:108) INFO  - Project name is "BookStore.NET_17584lines"
+2011-10-27 18:06:30,713 [pool-1-thread-1] (CxScanJob.java:275) INFO  - Check CLI version support: 1.2.6
+2011-10-27 18:06:30,760 [pool-1-thread-1] (CxScanJob.java:290) INFO  - Log in
+2011-10-27 18:06:30,900 [pool-1-thread-1] (CxScanJob.java:120) INFO  - Retrieving scan configurations
+2011-10-27 18:06:31,040 [pool-1-thread-1] (CxScanJob.java:141) INFO  - Request scan
+2011-10-27 18:06:31,040 [pool-1-thread-1] (CxScanJob.java:434) INFO  - isVisible to others flag: true
+2011-10-27 18:06:32,334 [pool-1-thread-1] (CxScanJob.java:491) TRACE - Project scan request response:RunScanResult(scanId:bee29835-11be-47a8-bda5-c4d22a100844,projectId:8)
+2011-10-27 18:06:32,365 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ bee29835-11be-47a8-bda5-c4d22a100844 | QUEUED | 0 | 0 |  | 0 |  |  | 2011-10-27 8:58:35 | 2013-10-27 8:58:35 | -1 |  | 8| 0 | 8 | 0 })
+2011-10-27 18:06:32,365 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 0%
+2011-10-27 18:06:32,365 [pool-2-thread-1] (WaitScanCompletionJob.java:110) INFO  - Scan state: QUEUED
+2011-10-27 18:06:32,365 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - QUEUED
+ (0%) 
+2011-10-27 18:07:32,767 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ bee29835-11be-47a8-bda5-c4d22a100844 | QUEUED | 0 | 0 |  | 0 |  |  | 2011-10-27 8:58:35 | 2013-10-27 8:58:35 | -1 |  | 8| 0 | 8 | 0 })
+2011-10-27 18:07:32,767 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 0%
+2011-10-27 18:07:32,767 [pool-2-thread-1] (WaitScanCompletionJob.java:110) INFO  - Scan state: QUEUED
+2011-10-27 18:07:32,767 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - QUEUED
+ (0%) 
+2011-10-27 18:08:33,155 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ bee29835-11be-47a8-bda5-c4d22a100844 | QUEUED | 0 | 0 |  | 0 |  |  | 2011-10-27 8:58:35 | 2013-10-27 8:58:35 | -1 |  | 8| 0 | 8 | 0 })
+2011-10-27 18:08:33,155 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 0%
+2011-10-27 18:08:33,155 [pool-2-thread-1] (WaitScanCompletionJob.java:110) INFO  - Scan state: QUEUED
+2011-10-27 18:08:33,155 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - QUEUED
+ (0%) 
+2011-10-27 18:09:33,481 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ bee29835-11be-47a8-bda5-c4d22a100844 | QUEUED | 0 | 0 |  | 0 |  |  | 2011-10-27 8:58:35 | 2013-10-27 8:58:35 | -1 |  | 8| 0 | 8 | 0 })
+2011-10-27 18:09:33,481 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 0%
+2011-10-27 18:09:33,481 [pool-2-thread-1] (WaitScanCompletionJob.java:110) INFO  - Scan state: QUEUED
+2011-10-27 18:09:33,481 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - QUEUED
+ (0%) 
+2011-10-27 18:10:33,869 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ bee29835-11be-47a8-bda5-c4d22a100844 | QUEUED | 0 | 0 |  | 0 |  |  | 2011-10-27 8:58:35 | 2013-10-27 8:58:35 | -1 |  | 8| 0 | 8 | 0 })
+2011-10-27 18:10:33,869 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 0%
+2011-10-27 18:10:33,869 [pool-2-thread-1] (WaitScanCompletionJob.java:110) INFO  - Scan state: QUEUED
+2011-10-27 18:10:33,869 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - QUEUED
+ (0%) 
+2011-10-27 18:11:34,241 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ bee29835-11be-47a8-bda5-c4d22a100844 | QUEUED | 0 | 0 |  | 0 |  |  | 2011-10-27 8:58:35 | 2013-10-27 8:58:35 | -1 |  | 8| 0 | 8 | 0 })
+2011-10-27 18:11:34,241 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 0%
+2011-10-27 18:11:34,241 [pool-2-thread-1] (WaitScanCompletionJob.java:110) INFO  - Scan state: QUEUED
+2011-10-27 18:11:34,241 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - QUEUED
+ (0%) 
+2011-10-27 18:12:34,566 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ bee29835-11be-47a8-bda5-c4d22a100844 | WORKING | 38 | 17 | Optimizing internal representation, Stage 3 | 96 | Stage # 18 of 22 | Processing # 605 of 624 | 2011-10-27 8:58:35 | 2013-10-27 8:58:35 | -1 | Book_Store.ShoppingCartRecord.InitializeComponent | 8| 0 | 8 | 0 })
+2011-10-27 18:12:34,582 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 38%
+2011-10-27 18:12:34,582 [pool-2-thread-1] (WaitScanCompletionJob.java:104) INFO  - Current stage:  "Optimizing internal representation, Stage 3" - Stage # 18 of 22
+2011-10-27 18:12:34,582 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - WORKING "Optimizing internal representation, Stage 3"
+Stage # 18 of 22 (96%) Processing # 605 of 624
+2011-10-27 18:13:34,948 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ bee29835-11be-47a8-bda5-c4d22a100844 | WORKING | 76 | 20 | Querying | 52 | Running query: Cross_Site_History_Manipulation | Processing # 72 of 136 | 2011-10-27 8:58:35 | 2013-10-27 8:58:35 | -1 | Cross_Site_History_Manipulation | 8| 0 | 8 | 8 })
+2011-10-27 18:13:34,963 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 76%
+2011-10-27 18:13:34,963 [pool-2-thread-1] (WaitScanCompletionJob.java:104) INFO  - Current stage:  "Querying" - Running query: Cross_Site_History_Manipulation
+2011-10-27 18:13:34,963 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - WORKING "Querying"
+Running query: Cross_Site_History_Manipulation (52%) Processing # 72 of 136
+2011-10-27 18:14:35,380 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ bee29835-11be-47a8-bda5-c4d22a100844 | WORKING | 99 | 20 | null | 0 | Saving results... | null | 2011-10-27 8:58:35 | 2011-10-27 9:6:7 | -1 | Weak_Password_Authentication | 8| 0 | 8 | 8 })
+2011-10-27 18:14:35,380 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 99%
+2011-10-27 18:14:35,380 [pool-2-thread-1] (WaitScanCompletionJob.java:108) INFO  - Current stage: Saving results...
+2011-10-27 18:14:35,380 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - WORKING
+Saving results... (0%) 
+2011-10-27 18:15:35,767 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ bee29835-11be-47a8-bda5-c4d22a100844 | FINISHED | 100 | 2147483647 |  | 0 | Finish saving results |  | 2011-10-27 8:58:35 | 2011-10-27 9:6:45 | -1 |  | 8| 8 | 8 | 8 })
+2011-10-27 18:15:35,767 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 100%
+2011-10-27 18:15:35,767 [pool-2-thread-1] (WaitScanCompletionJob.java:108) INFO  - Current stage: Finish saving results
+2011-10-27 18:15:35,767 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - FINISHED
+Finish saving results (0%) 
+2011-10-27 18:15:35,767 [pool-2-thread-1] (WaitScanCompletionJob.java:126) INFO  - Finish saving results
+2011-10-27 18:15:35,782 [pool-1-thread-1] (CxScanJob.java:172) INFO  - Retrieving results
+2011-10-27 18:15:56,565 [pool-1-thread-1] (CxScanJob.java:549) INFO  - Saving xml results to file [Q:\Projects\C#\BookStore.NET_17584lines\BookStore.NET_17584lines.xml]

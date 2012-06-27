@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\Bookstore\BookStore.NET\", "..\BookStore.NET_17584lines", "{BF320094-76B5-4A28-AA84-0643626A28B9}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/BookStore.NET"
+		Debug.AspNetCompiler.PhysicalPath = "..\BookStore.NET\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\BookStore.NET\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/BookStore.NET"
+		Release.AspNetCompiler.PhysicalPath = "..\BookStore.NET\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\BookStore.NET\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1067"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF320094-76B5-4A28-AA84-0643626A28B9}.Debug|.NET.ActiveCfg = Debug|.NET
+		{BF320094-76B5-4A28-AA84-0643626A28B9}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

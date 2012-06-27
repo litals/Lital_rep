@@ -1,0 +1,1 @@
+<%@ Application Inherits="Book_Store.Global" Language="C#" %>
